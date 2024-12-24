@@ -9,14 +9,14 @@
     animation-direction: alternate; */
 
 #info {
-    width: 540px;
+    width: 270px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 #cell_field {
-    width: 540px;
+    width: 270px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,10 +27,10 @@
 }
 
 .cell {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     background-color: blueviolet;
-    margin: 2px;
+    margin: 1px;
 }
 
 .active_cell {
@@ -38,10 +38,10 @@
 }
 
 .apple {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     background-color: rgb(255, 0, 68);
-    margin: 2px;
+    margin: 1px;
     /* border-radius: 70%; */
 }
 
